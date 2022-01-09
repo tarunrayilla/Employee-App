@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:paddingBottom="8dp">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/employee_photo"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/user" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/employee_name"-->
+<!--        style="@style/Header"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.493"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/employee_photo"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:text="John Doe" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/employee_role"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:textSize="18sp"-->
+<!--        style="@style/HeaderSmall"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/employee_photo"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/employee_name"-->
+<!--        tools:text="Manager" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/employee_age"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:textSize="18sp"-->
+<!--        style="@style/HeaderSmall"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/employee_photo"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/employee_role"-->
+<!--        tools:text="42 years" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/employee_gender"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:textSize="18sp"-->
+<!--        style="@style/HeaderSmall"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/employee_age"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/employee_role"-->
+<!--        tools:text="Male" />-->
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:backgroundTint="#E6E5E2"
+    app:cardCornerRadius="3dp"
+    app:cardUseCompatPadding="false"
+    app:contentPadding="3dp"
+    app:strokeColor="#A5A1A1"
+    app:strokeWidth="1dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:id="@+id/employee_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/user" />
+
+        <TextView
+            android:id="@+id/employee_name"
+            style="@style/Header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toEndOf="@+id/employee_photo"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="John Doe" />
+
+        <TextView
+            android:id="@+id/employee_role"
+            style="@style/HeaderSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/employee_photo"
+            app:layout_constraintTop_toBottomOf="@+id/employee_name"
+            tools:text="Manager" />
+
+        <TextView
+            android:id="@+id/employee_age"
+            style="@style/HeaderSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/employee_photo"
+            app:layout_constraintTop_toBottomOf="@+id/employee_role"
+            tools:text="42 years" />
+
+        <TextView
+            android:id="@+id/employee_gender"
+            style="@style/HeaderSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/employee_age"
+            app:layout_constraintTop_toBottomOf="@+id/employee_role"
+            tools:text="Male" />
+
+        <ImageView
+            android:id="@+id/edit_employee"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
+

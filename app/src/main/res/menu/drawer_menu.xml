@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none" android:id="@+id/action">
+        <item android:title="Add new employee" android:id="@+id/add_new"/>
+        <item android:title="Latest employee name" android:id="@+id/menu_latest_employee_name"/>
+    </group>
+
+
+    <group android:checkableBehavior="none" android:id="@+id/exim">
+        <item android:title="Export data" android:id="@+id/menu_export_data"/>
+        <item android:title="Import data" android:id="@+id/menu_import_data"/>
+    </group>
+
+    <group android:checkableBehavior="none" android:id="@+id/alarm">
+        <item android:title="Set alarm 30 minutes from now" android:id="@+id/menu_alarm" />
+    </group>
+
+    <group android:checkableBehavior="none" android:id="@+id/chat">
+        <item android:title="Company Chat" android:id="@+id/company_chat" />
+    </group>
+
+     <group android:checkableBehavior="none" android:id="@+id/pages">
+         <item android:title="About us" android:id="@+id/about" />
+         <item android:title="Contact us" android:id="@+id/contact"/>
+     </group>
+
+    <group android:checkableBehavior="none" android:id="@+id/signout">
+        <item android:title="Sign Out" android:id="@+id/sign_out" />
+    </group>
+</menu>

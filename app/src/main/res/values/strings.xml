@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Employee App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="role">
+        <item>Manager</item>
+        <item>Staff</item>
+        <item>Worker</item>
+    </string-array>
+
+    <string name="camera_permission">"We need your permission to take a photo. When asked please give the permission"</string>
+
+    <string name="camera_permission_denied">Permission denied to use camera</string>
+
+    <string name="create_file_Error">Error occurred while creating file: %1$s</string>
+
+    <string name="no_app_csv">No app to read CSV file</string>
+
+    <string name="file_create_error">Error occurred while creating file: %1$s</string>
+
+    <string name="file_export_success">File exported successfully</string>
+
+    <string name="share_text">Employee data\nName: %1$s\nRole: %2$s\nAge: %3$s\nGender: %4$s </string>
+
+    <string name="no_employee">There are no employees to show.<br></br> Please add an employee by clicking the bottom right button.</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate debitis dicta itaque quam repudiandae rerum soluta veritatis voluptas! Ab accusamus ad alias deleniti dicta eaque enim id nesciunt, pariatur quasi quos saepe soluta suscipit temporibus vel veniam voluptas. Illum placeat quam quasi rem. Accusamus aliquam aperiam deleniti deserunt dolorem ducimus est et fuga id in iste, minus, neque perspiciatis quibusdam recusandae rem soluta suscipit totam vel voluptas! Aliquid dolorem fuga iusto maxime molestiae suscipit ut! Cum dolor, ex expedita fugit, harum modi obcaecati perferendis possimus qui ratione, recusandae repellat temporibus veniam? Adipisci alias at dolorem earum exercitationem expedita explicabo facilis fugiat, id impedit nobis, omnis quis rerum. Accusantium ad asperiores at consectetur ipsam nam praesentium provident, saepe. Aperiam, assumenda corporis error excepturi incidunt inventore modi nam neque nihil omnis optio, pariatur placeat voluptatem! Animi assumenda at atque, beatae consequuntur corporis cupiditate, dicta dignissimos doloremque earum enim error est, exercitationem fuga iure laborum magni maiores nam natus nesciunt non nostrum quia quisquam quod ratione sapiente sed veniam. Ad, animi autem facere hic ipsa molestias non officiis quidem quis quisquam rerum saepe totam vel voluptate voluptatem. Culpa dolorem ducimus excepturi fugit ipsum laborum nam neque nisi, obcaecati possimus provident quibusdam repellat sed sequi soluta sunt voluptas? Commodi consequuntur doloribus ea eveniet ipsa laborum officia. Ad distinctio dolor dolores fuga mollitia nobis quidem quod repellendus suscipit, tempora velit voluptate. Accusantium aliquam consequuntur deserunt ea ipsam minus, nam perspiciatis voluptas. Dicta eligendi excepturi fugiat ipsam itaque laboriosam molestias numquam voluptatibus? Atque eum explicabo harum, magni nam nostrum odio pariatur porro quaerat quasi quo sed, veritatis voluptatibus! Aut deserunt dolore, dolorem earum est explicabo hic ipsam iste labore modi optio perferendis quas, ratione soluta totam unde voluptate. Adipisci animi aperiam distinctio doloribus eius est exercitationem fugiat, iusto magni nam natus odit officia porro qui ratione sed sequi similique voluptates. Accusantium, architecto at aut eligendi eos maiores nihil nulla obcaecati placeat provident quidem reiciendis, veniam vero? Autem blanditiis corporis cum debitis delectus deserunt facere harum iure laborum maxime mollitia, nemo nesciunt nisi officiis repellendus, tempora, voluptatum. Adipisci consectetur corporis culpa cum cupiditate deserunt distinctio dolor doloribus eligendi esse fugit hic ipsam iure magni molestiae molestias necessitatibus nemo nisi numquam odit pariatur placeat, porro quas quibusdam quisquam quos sed sequi similique sunt temporibus! Eveniet nostrum, sunt. Adipisci architecto dolor ea, earum necessitatibus, nobis nulla numquam quasi reiciendis repudiandae soluta suscipit veniam! At doloribus, illo perspiciatis placeat possimus quisquam quos temporibus veniam voluptatibus! Deleniti fuga illo incidunt ipsum voluptate. Ab aperiam architecto at delectus dolores eveniet, exercitationem expedita harum laboriosam maiores modi nemo pariatur quas qui quod tempore tenetur? Ab accusantium aliquam aliquid amet delectus deserunt eligendi enim eos fugiat illo in iste libero magnam magni maiores, modi necessitatibus neque officiis optio ratione reiciendis rem sequi sit soluta tempora veniam veritatis voluptates. At aut deleniti harum impedit incidunt maxime necessitatibus non reprehenderit, sapiente temporibus vero vitae. Assumenda eos minima nihil quibusdam reiciendis velit vitae. Aperiam assumenda at commodi delectus dolorem ex, iure nisi odio quae recusandae, ut?</string>
+
+    <string name="employee_of_the_day">Employee of the day</string>
+
+    <string name="employee_of_the_day_name">YAY! %1$s is the chosen one</string>
+
+    <string name="alarm_channel">Employee example alarm notification channel</string>
+
+    <string name="alarm_set_message">Alarm set for 30 minutes from now</string>
+
+    <string name="employee_alarm">Employee Alarm</string>
+
+</resources>
